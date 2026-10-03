@@ -1,0 +1,602 @@
+[
+  {
+    "text": "Sentence1: 'Powell recently changed the story , telling officers that Hoffa 's body was buried at his former home , where the search was conducted Wednesday .', Sentence2: 'Powell changed the story earlier this year , telling officers that Hoffa 's body was buried at his former home , where the aboveground pool now sits .'",
+    "label": 0,
+    "sentence1": "Powell recently changed the story , telling officers that Hoffa 's body was buried at his former home , where the search was conducted Wednesday .",
+    "sentence2": "Powell changed the story earlier this year , telling officers that Hoffa 's body was buried at his former home , where the aboveground pool now sits ."
+  },
+  {
+    "text": "Sentence1: 'Another said its members would continue to call the more than 50 million phone numbers on the Federal Trade Commission 's list .', Sentence2: 'Meantime , the Direct Marketing Association said its members should not call the nearly 51 million numbers on the list .'",
+    "label": 0,
+    "sentence1": "Another said its members would continue to call the more than 50 million phone numbers on the Federal Trade Commission 's list .",
+    "sentence2": "Meantime , the Direct Marketing Association said its members should not call the nearly 51 million numbers on the list ."
+  },
+  {
+    "text": "Sentence1: 'Stock futures were mixed in early Thursday trading , but trading below fair value , pointing to a lower open for the major market indexes .', Sentence2: 'Stock futures were trading lower early on Thursday , below fair value , pointing to a lower open .'",
+    "label": 1,
+    "sentence1": "Stock futures were mixed in early Thursday trading , but trading below fair value , pointing to a lower open for the major market indexes .",
+    "sentence2": "Stock futures were trading lower early on Thursday , below fair value , pointing to a lower open ."
+  },
+  {
+    "text": "Sentence1: 'Worldwide , 7,183 SARS cases and 514 deaths have been reported in 30 countries .', Sentence2: 'Taiwan reported 22 new cases , for a total of 360 with 13 deaths .'",
+    "label": 0,
+    "sentence1": "Worldwide , 7,183 SARS cases and 514 deaths have been reported in 30 countries .",
+    "sentence2": "Taiwan reported 22 new cases , for a total of 360 with 13 deaths ."
+  },
+  {
+    "text": "Sentence1: 'SCO says the pricing terms for a license will not be announced for weeks .', Sentence2: 'Details on pricing will be announced within a few weeks , McBride said .'",
+    "label": 1,
+    "sentence1": "SCO says the pricing terms for a license will not be announced for weeks .",
+    "sentence2": "Details on pricing will be announced within a few weeks , McBride said ."
+  },
+  {
+    "text": "Sentence1: 'Further estimates show that it is the fourth most common cause of cancer in men and the eighth most common in women .', Sentence2: 'Bladder cancer is the fourth most common cancer in American men and the eighth in women .'",
+    "label": 1,
+    "sentence1": "Further estimates show that it is the fourth most common cause of cancer in men and the eighth most common in women .",
+    "sentence2": "Bladder cancer is the fourth most common cancer in American men and the eighth in women ."
+  },
+  {
+    "text": "Sentence1: 'The new bill would have Medicare cover 95 percent of drug costs over $ 5,100 .', Sentence2: 'Above that , seniors would be responsible for 100 percent of drug costs until the out-of-pocket total reaches $ 3,600 .'",
+    "label": 0,
+    "sentence1": "The new bill would have Medicare cover 95 percent of drug costs over $ 5,100 .",
+    "sentence2": "Above that , seniors would be responsible for 100 percent of drug costs until the out-of-pocket total reaches $ 3,600 ."
+  },
+  {
+    "text": "Sentence1: 'The technology-laced Nasdaq Composite Index < .IXIC > rose 17.33 points , or 1.07 percent , to 1,640.13 .', Sentence2: 'The broader Standard & Poor 's 500 Index < .SPX > gained 5.51 points , or 0.56 percent , to 981.73 .'",
+    "label": 0,
+    "sentence1": "The technology-laced Nasdaq Composite Index < .IXIC > rose 17.33 points , or 1.07 percent , to 1,640.13 .",
+    "sentence2": "The broader Standard & Poor 's 500 Index < .SPX > gained 5.51 points , or 0.56 percent , to 981.73 ."
+  },
+  {
+    "text": "Sentence1: 'Both studies are published in the Journal of the American Medical Association .', Sentence2: 'The study appears in the latest issue of the Journal of the American Medical Association .'",
+    "label": 0,
+    "sentence1": "Both studies are published in the Journal of the American Medical Association .",
+    "sentence2": "The study appears in the latest issue of the Journal of the American Medical Association ."
+  },
+  {
+    "text": "Sentence1: 'His Chevrolet Tahoe was found abandoned June 25 in a Virginia Beach , parking lot .', Sentence2: 'His sport utility vehicle was found June 25 , abandoned without its license plates in Virginia Beach , Va .'",
+    "label": 1,
+    "sentence1": "His Chevrolet Tahoe was found abandoned June 25 in a Virginia Beach , parking lot .",
+    "sentence2": "His sport utility vehicle was found June 25 , abandoned without its license plates in Virginia Beach , Va ."
+  },
+  {
+    "text": "Sentence1: 'Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerage houses to settle investigations of analyst conflicts of interest .', Sentence2: 'Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerages over analyst conflict-of-interest allegations .'",
+    "label": 1,
+    "sentence1": "Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerage houses to settle investigations of analyst conflicts of interest .",
+    "sentence2": "Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerages over analyst conflict-of-interest allegations ."
+  },
+  {
+    "text": "Sentence1: 'Crohn 's disease causes inflammation of the intestine and symptoms include diarrhea , pain , weight loss and tiredness .', Sentence2: 'Symptoms include chronic diarrhoea , abdominal pain , weight loss and extreme tiredness .'",
+    "label": 1,
+    "sentence1": "Crohn 's disease causes inflammation of the intestine and symptoms include diarrhea , pain , weight loss and tiredness .",
+    "sentence2": "Symptoms include chronic diarrhoea , abdominal pain , weight loss and extreme tiredness ."
+  },
+  {
+    "text": "Sentence1: 'He and his colleagues attributed some of the communication gap to doctors feeling pressed for time .', Sentence2: 'He attributed some of the communication gap to doctors feeling pressed for time ; patients cited discomfort discussing financial issues .'",
+    "label": 0,
+    "sentence1": "He and his colleagues attributed some of the communication gap to doctors feeling pressed for time .",
+    "sentence2": "He attributed some of the communication gap to doctors feeling pressed for time ; patients cited discomfort discussing financial issues ."
+  },
+  {
+    "text": "Sentence1: 'The three men have pleaded not guilty and their lawyers have asked the High Court to dismiss the charges , saying the state has failed to present a solid case .', Sentence2: 'Defense lawyers asked the High Court to dismiss the charges , saying the state has failed to present a solid case .'",
+    "label": 0,
+    "sentence1": "The three men have pleaded not guilty and their lawyers have asked the High Court to dismiss the charges , saying the state has failed to present a solid case .",
+    "sentence2": "Defense lawyers asked the High Court to dismiss the charges , saying the state has failed to present a solid case ."
+  },
+  {
+    "text": "Sentence1: 'A Florida grand jury investigating pharmaceutical wholesalers indicted 19 people on charges of peddling bogus or diluted medications often prescribed for cancer and AIDS patients , authorities said yesterday .', Sentence2: 'A Florida grand jury indicted 19 people for contaminating and diluting prescription drugs desperately needed by AIDS and cancer patients in a multimillion-dollar scheme , prosecutors said Monday .'",
+    "label": 0,
+    "sentence1": "A Florida grand jury investigating pharmaceutical wholesalers indicted 19 people on charges of peddling bogus or diluted medications often prescribed for cancer and AIDS patients , authorities said yesterday .",
+    "sentence2": "A Florida grand jury indicted 19 people for contaminating and diluting prescription drugs desperately needed by AIDS and cancer patients in a multimillion-dollar scheme , prosecutors said Monday ."
+  },
+  {
+    "text": "Sentence1: 'The Bush administration 's hope is that by increasing the efficiency of older power plants -- especially coal -- more power can be produced more cheaply .', Sentence2: 'The administration 's hope is that by increasing the efficiency of older coal-fired plants - the most affected segment - more power can be produced more cheaply .'",
+    "label": 1,
+    "sentence1": "The Bush administration 's hope is that by increasing the efficiency of older power plants -- especially coal -- more power can be produced more cheaply .",
+    "sentence2": "The administration 's hope is that by increasing the efficiency of older coal-fired plants - the most affected segment - more power can be produced more cheaply ."
+  },
+  {
+    "text": "Sentence1: 'The Dow Jones industrial average .DJI was off 58.69 points , or 0.64 percent , at 9,137.86 .', Sentence2: 'The blue-chip Dow Jones industrial average .DJI fell 86.56 points , or 0.94 percent , to 9,109.99 , after giving up more than 1 percent earlier .'",
+    "label": 0,
+    "sentence1": "The Dow Jones industrial average .DJI was off 58.69 points , or 0.64 percent , at 9,137.86 .",
+    "sentence2": "The blue-chip Dow Jones industrial average .DJI fell 86.56 points , or 0.94 percent , to 9,109.99 , after giving up more than 1 percent earlier ."
+  },
+  {
+    "text": "Sentence1: 'The tech-laced Nasdaq Composite Index .IXIC eased 5.16 points , or 0.32 percent , at 1,590.75 , breaking a six-day string of gains .', Sentence2: 'The tech-heavy Nasdaq Composite Index .IXIC was off 0.11 percent , or 1.78 points , at 1,594.13 .'",
+    "label": 0,
+    "sentence1": "The tech-laced Nasdaq Composite Index .IXIC eased 5.16 points , or 0.32 percent , at 1,590.75 , breaking a six-day string of gains .",
+    "sentence2": "The tech-heavy Nasdaq Composite Index .IXIC was off 0.11 percent , or 1.78 points , at 1,594.13 ."
+  },
+  {
+    "text": "Sentence1: 'His chief lawyer , Mahendradatta , said Bashir was mentally prepared for a heavy sentencing demand and felt the Marriott bombing would affect the decision .', Sentence2: 'A lawyer for Bashir , Mahendradatta , said earlier his client was mentally prepared for a heavy sentencing demand and had felt the Marriott bombing would affect the decision .'",
+    "label": 1,
+    "sentence1": "His chief lawyer , Mahendradatta , said Bashir was mentally prepared for a heavy sentencing demand and felt the Marriott bombing would affect the decision .",
+    "sentence2": "A lawyer for Bashir , Mahendradatta , said earlier his client was mentally prepared for a heavy sentencing demand and had felt the Marriott bombing would affect the decision ."
+  },
+  {
+    "text": "Sentence1: 'This comes at a time when Alba is expanding its aluminium output by 307,000 tonnes a year and is accelerating plans for another 307,000 tonnes-a-year increase .', Sentence2: 'That comes as Alba is lifting its aluminium output by 307,000 tonnes a year and accelerating plans for another 307,000 tonnes-a-year increase .'",
+    "label": 1,
+    "sentence1": "This comes at a time when Alba is expanding its aluminium output by 307,000 tonnes a year and is accelerating plans for another 307,000 tonnes-a-year increase .",
+    "sentence2": "That comes as Alba is lifting its aluminium output by 307,000 tonnes a year and accelerating plans for another 307,000 tonnes-a-year increase ."
+  },
+  {
+    "text": "Sentence1: 'The new Mobile AMD Athlon 64 processors are numbered 3200 + , 3000 + and 2800 + .', Sentence2: 'The Mobile 3200 + , 3000 + and 2800 + cost $ 293 , $ 233 and $ 193 for a thousand units .'",
+    "label": 0,
+    "sentence1": "The new Mobile AMD Athlon 64 processors are numbered 3200 + , 3000 + and 2800 + .",
+    "sentence2": "The Mobile 3200 + , 3000 + and 2800 + cost $ 293 , $ 233 and $ 193 for a thousand units ."
+  },
+  {
+    "text": "Sentence1: 'The main psychologist , Dwight Close , referred questions to an agency spokeswoman , who said she wouldn 't comment on personnel issues .', Sentence2: 'The main psychologist in the Rodriguez case , Dwight Close , referred questions to an agency spokeswoman , who didn 't immediately return a call .'",
+    "label": 1,
+    "sentence1": "The main psychologist , Dwight Close , referred questions to an agency spokeswoman , who said she wouldn 't comment on personnel issues .",
+    "sentence2": "The main psychologist in the Rodriguez case , Dwight Close , referred questions to an agency spokeswoman , who didn 't immediately return a call ."
+  },
+  {
+    "text": "Sentence1: 'The broader Standard & Poor 's 500 Index < .SPX > gave up 11.91 points , or 1.19 percent , at 986.60 .', Sentence2: 'The technology-laced Nasdaq Composite Index .IXIC declined 16.68 points , or 1.01 percent , at 1,636.94 .'",
+    "label": 0,
+    "sentence1": "The broader Standard & Poor 's 500 Index < .SPX > gave up 11.91 points , or 1.19 percent , at 986.60 .",
+    "sentence2": "The technology-laced Nasdaq Composite Index .IXIC declined 16.68 points , or 1.01 percent , at 1,636.94 ."
+  },
+  {
+    "text": "Sentence1: 'The survey also found that executives who feel that current economic conditions have improved rose to 35 per cent from 15 per cent last quarter .', Sentence2: 'The survey also found that more executives feel that current economic conditions have improved , at 35 per cent compared to 15 per cent in the first quarter .'",
+    "label": 1,
+    "sentence1": "The survey also found that executives who feel that current economic conditions have improved rose to 35 per cent from 15 per cent last quarter .",
+    "sentence2": "The survey also found that more executives feel that current economic conditions have improved , at 35 per cent compared to 15 per cent in the first quarter ."
+  },
+  {
+    "text": "Sentence1: 'Taiwan has attempted to gain observer status to the United Nations-affiliated WHO for seven years , but again was rebuffed March 19 at its annual conference in Geneva .', Sentence2: 'It has sought observer status for seven years , but was again rebuffed May 19 at the annual WHO conference in Geneva .'",
+    "label": 1,
+    "sentence1": "Taiwan has attempted to gain observer status to the United Nations-affiliated WHO for seven years , but again was rebuffed March 19 at its annual conference in Geneva .",
+    "sentence2": "It has sought observer status for seven years , but was again rebuffed May 19 at the annual WHO conference in Geneva ."
+  },
+  {
+    "text": "Sentence1: 'I would like the FCC to start all over ,  said Sen. Kay Bailey Hutchison , R-Texas , who supported reversing the rules .', Sentence2: 'I would like the FCC to start all over again ,  said Sen. Kay Bailey Hutchison , R-Texas , who expressed concern about \" potentially dangerous \" newspaper-broadcast combinations .'",
+    "label": 0,
+    "sentence1": "I would like the FCC to start all over ,  said Sen. Kay Bailey Hutchison , R-Texas , who supported reversing the rules .",
+    "sentence2": "I would like the FCC to start all over again ,  said Sen. Kay Bailey Hutchison , R-Texas , who expressed concern about \" potentially dangerous \" newspaper-broadcast combinations ."
+  },
+  {
+    "text": "Sentence1: 'Dave Tomlin , assistant general counsel of The A.P. , said his organization was still deciding whether to appeal .', Sentence2: 'Dave Tomlin , AP 's assistant general counsel , said the parties are deciding whether to appeal the order .'",
+    "label": 1,
+    "sentence1": "Dave Tomlin , assistant general counsel of The A.P. , said his organization was still deciding whether to appeal .",
+    "sentence2": "Dave Tomlin , AP 's assistant general counsel , said the parties are deciding whether to appeal the order ."
+  },
+  {
+    "text": "Sentence1: 'Weyerhaeuser is the one of the worlds largest producers of softwood lumber , with the capacity to produce 7.6 billion board feet a year .', Sentence2: 'Weyerhaeuser , one of the world 's largest producers of softwood , can produce about 7.6 billion board feet a year .'",
+    "label": 1,
+    "sentence1": "Weyerhaeuser is the one of the worlds largest producers of softwood lumber , with the capacity to produce 7.6 billion board feet a year .",
+    "sentence2": "Weyerhaeuser , one of the world 's largest producers of softwood , can produce about 7.6 billion board feet a year ."
+  },
+  {
+    "text": "Sentence1: 'If their circulatory systems are not properly separated , it could kill one or both of them , doctors have said .', Sentence2: 'But if their circulatory systems are not properly separated , it could kill them , doctors say .'",
+    "label": 1,
+    "sentence1": "If their circulatory systems are not properly separated , it could kill one or both of them , doctors have said .",
+    "sentence2": "But if their circulatory systems are not properly separated , it could kill them , doctors say ."
+  },
+  {
+    "text": "Sentence1: 'Our goals is not to go out and start suing companies ,  McBride said .', Sentence2: 'As we go down the licensing path , our goal is not to start suing companies , \" McBride said .'",
+    "label": 0,
+    "sentence1": "Our goals is not to go out and start suing companies ,  McBride said .",
+    "sentence2": "As we go down the licensing path , our goal is not to start suing companies , \" McBride said ."
+  },
+  {
+    "text": "Sentence1: 'A key figure in former state Treasurer Paul Silvester 's bribery scheme was accused Wednesday of changing his story about Silvester 's alleged corrupt dealings with a Boston investment firm .', Sentence2: 'A key player in former state Treasurer Paul Silvester 's corruption scheme testified on Tuesday about kickbacks and bribes Silvester traded for state business .'",
+    "label": 0,
+    "sentence1": "A key figure in former state Treasurer Paul Silvester 's bribery scheme was accused Wednesday of changing his story about Silvester 's alleged corrupt dealings with a Boston investment firm .",
+    "sentence2": "A key player in former state Treasurer Paul Silvester 's corruption scheme testified on Tuesday about kickbacks and bribes Silvester traded for state business ."
+  },
+  {
+    "text": "Sentence1: 'Gartner 's report said global WLAN equipment shipments reached 19.5 million last year , a 120 percent increase over 2001 's 8.9 million units .', Sentence2: 'Total shipments reached 19.5 million units last year , compared with 8.9 million units in 2001 .'",
+    "label": 1,
+    "sentence1": "Gartner 's report said global WLAN equipment shipments reached 19.5 million last year , a 120 percent increase over 2001 's 8.9 million units .",
+    "sentence2": "Total shipments reached 19.5 million units last year , compared with 8.9 million units in 2001 ."
+  },
+  {
+    "text": "Sentence1: 'They were being held Sunday in the Camden County Jail on $ 100,000 bail each .', Sentence2: 'The Jacksons remained in Camden County jail on $ 100,000 bail .'",
+    "label": 1,
+    "sentence1": "They were being held Sunday in the Camden County Jail on $ 100,000 bail each .",
+    "sentence2": "The Jacksons remained in Camden County jail on $ 100,000 bail ."
+  },
+  {
+    "text": "Sentence1: 'I am proud that I stood against Richard Nixon , not with him ,  Kerry said .', Sentence2: 'I marched in the streets against Richard Nixon and the Vietnam War ,  she said .'",
+    "label": 0,
+    "sentence1": "I am proud that I stood against Richard Nixon , not with him ,  Kerry said .",
+    "sentence2": "I marched in the streets against Richard Nixon and the Vietnam War ,  she said ."
+  },
+  {
+    "text": "Sentence1: 'Saddam 's other son , Odai , surrendered Friday , but the Americans are keeping it quiet because he 's a U.S. agent .', Sentence2: 'Hussein 's other son , Uday , surrendered yesterday , but the Americans are keeping it quiet because he 's a US agent .'",
+    "label": 1,
+    "sentence1": "Saddam 's other son , Odai , surrendered Friday , but the Americans are keeping it quiet because he 's a U.S. agent .",
+    "sentence2": "Hussein 's other son , Uday , surrendered yesterday , but the Americans are keeping it quiet because he 's a US agent ."
+  },
+  {
+    "text": "Sentence1: 'The Space Infrared Telescope Facility 's mission is to search for the beginnings of the universe .', Sentence2: 'NASA is scheduled to launch the Space Infrared Telescope Facility on Monday morning .'",
+    "label": 0,
+    "sentence1": "The Space Infrared Telescope Facility 's mission is to search for the beginnings of the universe .",
+    "sentence2": "NASA is scheduled to launch the Space Infrared Telescope Facility on Monday morning ."
+  },
+  {
+    "text": "Sentence1: 'There are 625 U.N. troops in Bunia , while there are between 25,000 and 28,000 tribal fighters , from all sides , in the region .', Sentence2: 'There are 625 U.N. troops in Bunia , while there are between 25,000 and 28,000 tribal fighters in the region , with thousands of them deployed in and around Bunia .'",
+    "label": 1,
+    "sentence1": "There are 625 U.N. troops in Bunia , while there are between 25,000 and 28,000 tribal fighters , from all sides , in the region .",
+    "sentence2": "There are 625 U.N. troops in Bunia , while there are between 25,000 and 28,000 tribal fighters in the region , with thousands of them deployed in and around Bunia ."
+  },
+  {
+    "text": "Sentence1: 'The driver of the truck escaped and is now being sought by the police , Supoyo said .', Sentence2: 'But police say the driver of the truck has not been found and is wanted for questioning .'",
+    "label": 1,
+    "sentence1": "The driver of the truck escaped and is now being sought by the police , Supoyo said .",
+    "sentence2": "But police say the driver of the truck has not been found and is wanted for questioning ."
+  },
+  {
+    "text": "Sentence1: 'A soldier was killed Monday and another wounded when their convoy was ambushed in northern Iraq .', Sentence2: 'On Sunday , a U.S. soldier was killed and another injured when a munitions dump they were guarding exploded in southern Iraq .'",
+    "label": 0,
+    "sentence1": "A soldier was killed Monday and another wounded when their convoy was ambushed in northern Iraq .",
+    "sentence2": "On Sunday , a U.S. soldier was killed and another injured when a munitions dump they were guarding exploded in southern Iraq ."
+  },
+  {
+    "text": "Sentence1: 'Total Information Awareness is now Terrorism Information Awareness .', Sentence2: 'The new name will be Terrorism Information Awareness .'",
+    "label": 1,
+    "sentence1": "Total Information Awareness is now Terrorism Information Awareness .",
+    "sentence2": "The new name will be Terrorism Information Awareness ."
+  },
+  {
+    "text": "Sentence1: 'David Brame fatally shot his wife and then himself on April 26 in a Gig Harbor shopping-mall parking lot .', Sentence2: 'David Brame shot his wife and then himself April 26 in a Gig Harbor parking lot as their two children sat in his car nearby .'",
+    "label": 0,
+    "sentence1": "David Brame fatally shot his wife and then himself on April 26 in a Gig Harbor shopping-mall parking lot .",
+    "sentence2": "David Brame shot his wife and then himself April 26 in a Gig Harbor parking lot as their two children sat in his car nearby ."
+  },
+  {
+    "text": "Sentence1: 'I just hope that this event doesn 't tarnish his career or take away from what he 's done .', Sentence2: 'But I just hope that this event , whatever it was , doesn 't tarnish his career or take away all that Sammy Sosa 's done .\n1\t1705093\t1704989\tRobert B. Willumstad , 57 , Citigroup 's president , was named chief operating officer .\tAnd Robert B. Willumstad , 57 , who is currently president of Citigroup , was named chief operating officer .\n1\t451540\t451590\tThe service is deploying Cisco 's BTS 10200 Softswitch cable modem termination system and MGXR 8850 voice gateway products .\tThis solution includes the BTS 10200 soft switch , uBR7246VXR cable modem termination system and MGX 8850 voice gateway products .\n1\t3314564\t3314185\tLast year , there were shortages of shots for diphtheria-tetanus-whooping cough , measles-mumps-rubella , pneumococcal disease , tetanus and chicken pox nationally .\tIn the past two years scientists say there have been vaccine shortages for diphtheria-tetanus-whooping cough , measles-mumps-rubella , pneumococcal disease , tetanus and chicken pox .\n1\t804259\t804115\tCounty Judge Tim Harley declared a mistrial because the jury could not reach a verdict .\tJudge Tim Harley declared a mistrial in the Adrian McPherson gambling trial today after the jury was unable to reach a verdict .\n0\t2195121\t2195141\tMr. Pingeon is director of litigation for Massachusetts Correctional Legal Services , a prisoners ' rights group .\tPingeon said an attorney for his organization , Massachusetts Correctional Legal Services , interviewed Assan Tuesday .\n1\t2939979\t2939941\tHeather , 35 , who lost a leg in a road accident , is thought to have steel plates fitted in her hips , which would make natural childbirth impossible .\tFormer model Lady McCartney lost a leg in a road accident in 1993 and is understood to have steel plates fitted in her hips which would make natural childbirth difficult .\n0\t3014165\t3014133\tRepublicans had pledged to complete a Medicare drug package by August , then extended the deadline to Oct. 17 , and they are still working on it .\tRepublicans had pledged to complete a Medicare drug package by August , then extended it to Oct. 17 .\n1\t379579\t379458\tPacific Northwest has more than 800 employees , and Wells Fargo has 2,400 in Washington .\tIt has 800 employees , compared with Wells Fargo 's 2,400 .\n1\t481929\t481981\tHowever , other unions including the powerful CGT remained opposed to the reform and demanded the government begin fresh negotiations with them .\tThe powerful CGT and other unions remained opposed to the plans , however , and demanded the government renegotiate the reform with them .\n1\t2787375\t2787404\tOn health care , the NDP says there will be no privatization and no health-care premiums .\tThe New Democrats also renewed their commitment to no health-care privatization and no premiums .\n0\t1980126\t1980211\tAs part of a restructuring Peregrine sold its Remedy help desk software unit last year to BMC Software Inc .\tPeregrine sold its Remedy business unit to BMC Software in November for $ 355 million .\n0\t3299227\t3299188\tThis is America , my friends , and it should not happen here ,  he said to loud applause .'",
+    "label": 1,
+    "sentence1": "I just hope that this event doesn 't tarnish his career or take away from what he 's done .",
+    "sentence2": "But I just hope that this event , whatever it was , doesn 't tarnish his career or take away all that Sammy Sosa 's done .\n1\t1705093\t1704989\tRobert B. Willumstad , 57 , Citigroup 's president , was named chief operating officer .\tAnd Robert B. Willumstad , 57 , who is currently president of Citigroup , was named chief operating officer .\n1\t451540\t451590\tThe service is deploying Cisco 's BTS 10200 Softswitch cable modem termination system and MGXR 8850 voice gateway products .\tThis solution includes the BTS 10200 soft switch , uBR7246VXR cable modem termination system and MGX 8850 voice gateway products .\n1\t3314564\t3314185\tLast year , there were shortages of shots for diphtheria-tetanus-whooping cough , measles-mumps-rubella , pneumococcal disease , tetanus and chicken pox nationally .\tIn the past two years scientists say there have been vaccine shortages for diphtheria-tetanus-whooping cough , measles-mumps-rubella , pneumococcal disease , tetanus and chicken pox .\n1\t804259\t804115\tCounty Judge Tim Harley declared a mistrial because the jury could not reach a verdict .\tJudge Tim Harley declared a mistrial in the Adrian McPherson gambling trial today after the jury was unable to reach a verdict .\n0\t2195121\t2195141\tMr. Pingeon is director of litigation for Massachusetts Correctional Legal Services , a prisoners ' rights group .\tPingeon said an attorney for his organization , Massachusetts Correctional Legal Services , interviewed Assan Tuesday .\n1\t2939979\t2939941\tHeather , 35 , who lost a leg in a road accident , is thought to have steel plates fitted in her hips , which would make natural childbirth impossible .\tFormer model Lady McCartney lost a leg in a road accident in 1993 and is understood to have steel plates fitted in her hips which would make natural childbirth difficult .\n0\t3014165\t3014133\tRepublicans had pledged to complete a Medicare drug package by August , then extended the deadline to Oct. 17 , and they are still working on it .\tRepublicans had pledged to complete a Medicare drug package by August , then extended it to Oct. 17 .\n1\t379579\t379458\tPacific Northwest has more than 800 employees , and Wells Fargo has 2,400 in Washington .\tIt has 800 employees , compared with Wells Fargo 's 2,400 .\n1\t481929\t481981\tHowever , other unions including the powerful CGT remained opposed to the reform and demanded the government begin fresh negotiations with them .\tThe powerful CGT and other unions remained opposed to the plans , however , and demanded the government renegotiate the reform with them .\n1\t2787375\t2787404\tOn health care , the NDP says there will be no privatization and no health-care premiums .\tThe New Democrats also renewed their commitment to no health-care privatization and no premiums .\n0\t1980126\t1980211\tAs part of a restructuring Peregrine sold its Remedy help desk software unit last year to BMC Software Inc .\tPeregrine sold its Remedy business unit to BMC Software in November for $ 355 million .\n0\t3299227\t3299188\tThis is America , my friends , and it should not happen here ,  he said to loud applause ."
+  },
+  {
+    "text": "Sentence1: 'Klarman was arrested by FBI agents in the Hamptons , an exclusive summer resort enclave east of New York City .', Sentence2: 'Klarman was arrested by FBI agents Monday morning at his home in New York .'",
+    "label": 0,
+    "sentence1": "Klarman was arrested by FBI agents in the Hamptons , an exclusive summer resort enclave east of New York City .",
+    "sentence2": "Klarman was arrested by FBI agents Monday morning at his home in New York ."
+  },
+  {
+    "text": "Sentence1: 'Chi-Chi 's has agreed to keep the restaurant closed until Jan. 2 _ two months after it voluntarily closed following initial reports of the disease .', Sentence2: 'Chi-Chi 's has agreed to keep the restaurant closed until Jan. 2 -- two months after it voluntarily closed when the disease was first reported .'",
+    "label": 1,
+    "sentence1": "Chi-Chi 's has agreed to keep the restaurant closed until Jan. 2 _ two months after it voluntarily closed following initial reports of the disease .",
+    "sentence2": "Chi-Chi 's has agreed to keep the restaurant closed until Jan. 2 -- two months after it voluntarily closed when the disease was first reported ."
+  },
+  {
+    "text": "Sentence1: 'Four versions of Windows operating systems are targeted : Windows NT , Windows 2000 , Windows XP and Windows Server 2003 .', Sentence2: 'The new worm affects these Windows systems : 2000 , XP , NT 4.0 and Server 2003 .'",
+    "label": 1,
+    "sentence1": "Four versions of Windows operating systems are targeted : Windows NT , Windows 2000 , Windows XP and Windows Server 2003 .",
+    "sentence2": "The new worm affects these Windows systems : 2000 , XP , NT 4.0 and Server 2003 ."
+  },
+  {
+    "text": "Sentence1: 'It calls for the agency to plan an independent safety and engineering organization .', Sentence2: 'The agency has yet to fully formulate a strategy for the creation of an independent engineering technical authority .'",
+    "label": 1,
+    "sentence1": "It calls for the agency to plan an independent safety and engineering organization .",
+    "sentence2": "The agency has yet to fully formulate a strategy for the creation of an independent engineering technical authority ."
+  },
+  {
+    "text": "Sentence1: 'No official ceremony was planned to mark the anniversary in Dallas .', Sentence2: 'In Dallas , no official ceremony marked the anniversary .'",
+    "label": 1,
+    "sentence1": "No official ceremony was planned to mark the anniversary in Dallas .",
+    "sentence2": "In Dallas , no official ceremony marked the anniversary ."
+  },
+  {
+    "text": "Sentence1: 'Caldera acquired the Unix server software of the original SCO and changed its name to the SCO Group .', Sentence2: 'SCO changed its name to Tarantella , and Caldera later changed its name to the SCO Group .'",
+    "label": 0,
+    "sentence1": "Caldera acquired the Unix server software of the original SCO and changed its name to the SCO Group .",
+    "sentence2": "SCO changed its name to Tarantella , and Caldera later changed its name to the SCO Group ."
+  },
+  {
+    "text": "Sentence1: 'The victims were last seen at church last Sunday ; their bodies were discovered Tuesday .', Sentence2: 'The family was last seen July 6 and their bodies were found Tuesday .'",
+    "label": 1,
+    "sentence1": "The victims were last seen at church last Sunday ; their bodies were discovered Tuesday .",
+    "sentence2": "The family was last seen July 6 and their bodies were found Tuesday ."
+  },
+  {
+    "text": "Sentence1: 'Results of the 2001 Aboriginal Peoples Survey released yesterday by Statistics Canada suggest living standards have improved but still lag for those off reserves .', Sentence2: 'The 2001 Aboriginal Peoples Survey released Wednesday by Statistics Canada says living standards have improved but still lag for the Inuit and those who leave their often impoverished reserves .'",
+    "label": 0,
+    "sentence1": "Results of the 2001 Aboriginal Peoples Survey released yesterday by Statistics Canada suggest living standards have improved but still lag for those off reserves .",
+    "sentence2": "The 2001 Aboriginal Peoples Survey released Wednesday by Statistics Canada says living standards have improved but still lag for the Inuit and those who leave their often impoverished reserves ."
+  },
+  {
+    "text": "Sentence1: 'Software developers use compilers to translate programming languages such as C + + into the language that can be read by a particular processor .', Sentence2: 'Software developers use compilers to translate a programming language , such as C + + , into the machine language understood by the processor .'",
+    "label": 1,
+    "sentence1": "Software developers use compilers to translate programming languages such as C + + into the language that can be read by a particular processor .",
+    "sentence2": "Software developers use compilers to translate a programming language , such as C + + , into the machine language understood by the processor ."
+  },
+  {
+    "text": "Sentence1: 'In Albany , for example , 24 percent of students passed ; in South Colonie , 14 percent .', Sentence2: 'In Kingston , only about 15 percent of students who took the exam passed it .'",
+    "label": 0,
+    "sentence1": "In Albany , for example , 24 percent of students passed ; in South Colonie , 14 percent .",
+    "sentence2": "In Kingston , only about 15 percent of students who took the exam passed it ."
+  },
+  {
+    "text": "Sentence1: 'Tennessee Titans quarterback Steve McNair apologized Thursday for his arrest hours earlier in Nashville on suspicion of drunken driving and illegal possession of a handgun .', Sentence2: 'Tennessee Titans quarterback Steve McNair was arrested Thursday and charged with drunken driving and possession of a handgun .'",
+    "label": 0,
+    "sentence1": "Tennessee Titans quarterback Steve McNair apologized Thursday for his arrest hours earlier in Nashville on suspicion of drunken driving and illegal possession of a handgun .",
+    "sentence2": "Tennessee Titans quarterback Steve McNair was arrested Thursday and charged with drunken driving and possession of a handgun ."
+  },
+  {
+    "text": "Sentence1: 'That second dossier , passed to journalists during Mr Blair 's trip to Washington , said it drew on \" a number of sources , including intelligence material \" .', Sentence2: 'That second dossier , passed to journalists on Mr Blair 's trip to Washington to discuss war plans , said it drew upon \" a number of sources , including intelligence material \" .'",
+    "label": 1,
+    "sentence1": "That second dossier , passed to journalists during Mr Blair 's trip to Washington , said it drew on \" a number of sources , including intelligence material \" .",
+    "sentence2": "That second dossier , passed to journalists on Mr Blair 's trip to Washington to discuss war plans , said it drew upon \" a number of sources , including intelligence material \" ."
+  },
+  {
+    "text": "Sentence1: 'The other semifinal between Guillermo Coria of Argentina and Martin Verkerk of the Netherlands is also compelling .', Sentence2: 'The other , much less likely semifinal will match seventh-seeded Guillermo Coria of Argentina against the unseeded Dutchman Martin Verkerk .'",
+    "label": 0,
+    "sentence1": "The other semifinal between Guillermo Coria of Argentina and Martin Verkerk of the Netherlands is also compelling .",
+    "sentence2": "The other , much less likely semifinal will match seventh-seeded Guillermo Coria of Argentina against the unseeded Dutchman Martin Verkerk ."
+  },
+  {
+    "text": "Sentence1: 'Wal-Mart estimates more than 100 million Americans visit their stores every week .', Sentence2: 'Each week 138 million shoppers visit Wal-Mart 's 4,750 stores .'",
+    "label": 1,
+    "sentence1": "Wal-Mart estimates more than 100 million Americans visit their stores every week .",
+    "sentence2": "Each week 138 million shoppers visit Wal-Mart 's 4,750 stores ."
+  },
+  {
+    "text": "Sentence1: 'For the 12-month period ending June 30 , high-speed lines installed in homes and businesses increased by 45 percent .', Sentence2: 'For the full year period ending June 30 , 2003 , high-speed lines increased by 45 percent .'",
+    "label": 1,
+    "sentence1": "For the 12-month period ending June 30 , high-speed lines installed in homes and businesses increased by 45 percent .",
+    "sentence2": "For the full year period ending June 30 , 2003 , high-speed lines increased by 45 percent ."
+  },
+  {
+    "text": "Sentence1: 'Sen. John Kerry , Massachusetts Democrat , came in second place for the quarter with $ 5.8 million .', Sentence2: 'As expected , Dean led the field in the second quarter with $ 7.6 million raised .'",
+    "label": 0,
+    "sentence1": "Sen. John Kerry , Massachusetts Democrat , came in second place for the quarter with $ 5.8 million .",
+    "sentence2": "As expected , Dean led the field in the second quarter with $ 7.6 million raised ."
+  },
+  {
+    "text": "Sentence1: 'While some other parts of Africa have been used as staging grounds for the terror group , Malawi previously had not been a major focus of investigations into al-Qaida .', Sentence2: 'While some other parts of Africa have been used as Al Qaeda staging grounds , Malawi had previously not been a major focus of investigations into the group .'",
+    "label": 1,
+    "sentence1": "While some other parts of Africa have been used as staging grounds for the terror group , Malawi previously had not been a major focus of investigations into al-Qaida .",
+    "sentence2": "While some other parts of Africa have been used as Al Qaeda staging grounds , Malawi had previously not been a major focus of investigations into the group ."
+  },
+  {
+    "text": "Sentence1: 'Police said yesterday they believe Mr. Cruz knew of the girl through one of her former schoolmates , though neither the girl nor her family knew him .', Sentence2: 'Police said on Monday they believed Cruz knew of the fourth-grade girl through one of her former schoolmates , although neither the girl nor her family knew him .'",
+    "label": 1,
+    "sentence1": "Police said yesterday they believe Mr. Cruz knew of the girl through one of her former schoolmates , though neither the girl nor her family knew him .",
+    "sentence2": "Police said on Monday they believed Cruz knew of the fourth-grade girl through one of her former schoolmates , although neither the girl nor her family knew him ."
+  },
+  {
+    "text": "Sentence1: 'The Prime Minister , Junichiro Koizumi , joined the criticism .', Sentence2: 'Prime Minister Junichiro Koizumi said Mr Ota deserved to be criticised .'",
+    "label": 1,
+    "sentence1": "The Prime Minister , Junichiro Koizumi , joined the criticism .",
+    "sentence2": "Prime Minister Junichiro Koizumi said Mr Ota deserved to be criticised ."
+  },
+  {
+    "text": "Sentence1: 'There is one drug on the market for macular degeneration , Visudyne , and it is approved for the treatment of only one subtype that represents a minority of cases .', Sentence2: 'There is only one drug on the market for macular degeneration , and it is approved to treat only one subtype that represents a minority of cases .'",
+    "label": 1,
+    "sentence1": "There is one drug on the market for macular degeneration , Visudyne , and it is approved for the treatment of only one subtype that represents a minority of cases .",
+    "sentence2": "There is only one drug on the market for macular degeneration , and it is approved to treat only one subtype that represents a minority of cases ."
+  },
+  {
+    "text": "Sentence1: 'Speaking for the first time since being charged with child molestation , Jackson added , \" Why not ?', Sentence2: 'Michael Jackson spoke out for the first time Sunday night since the latest accusations of child molestation .'",
+    "label": 0,
+    "sentence1": "Speaking for the first time since being charged with child molestation , Jackson added , \" Why not ?",
+    "sentence2": "Michael Jackson spoke out for the first time Sunday night since the latest accusations of child molestation ."
+  },
+  {
+    "text": "Sentence1: 'The bureau also failed to pursue other leads , including a local imam who dealt with several key 9-11 figures .', Sentence2: 'The FBI also failed to pursue other leads , including a San Diego imam who dealt with several 9 / 11 figures , it adds .'",
+    "label": 1,
+    "sentence1": "The bureau also failed to pursue other leads , including a local imam who dealt with several key 9-11 figures .",
+    "sentence2": "The FBI also failed to pursue other leads , including a San Diego imam who dealt with several 9 / 11 figures , it adds ."
+  },
+  {
+    "text": "Sentence1: 'I notice a mood change in their priorities ,  one politician said .', Sentence2: 'I notice a mood change in their priorities ,  said one Iraqi politician after meeting with Mr. Bremer .'",
+    "label": 0,
+    "sentence1": "I notice a mood change in their priorities ,  one politician said .",
+    "sentence2": "I notice a mood change in their priorities ,  said one Iraqi politician after meeting with Mr. Bremer ."
+  },
+  {
+    "text": "Sentence1: 'The Johnson-Lewis fight was to be the main event of a boxing doubleheader at the Staples Center in Los Angeles .', Sentence2: 'With Johnson 's injury , the fight card at the Staples Center in Los Angeles is in question .'",
+    "label": 0,
+    "sentence1": "The Johnson-Lewis fight was to be the main event of a boxing doubleheader at the Staples Center in Los Angeles .",
+    "sentence2": "With Johnson 's injury , the fight card at the Staples Center in Los Angeles is in question ."
+  },
+  {
+    "text": "Sentence1: 'Scientists believed Stardust trapped thousands of particles of dust .', Sentence2: 'Stardust was designed to gather thousands of dust particles streaming from Wild 2 .'",
+    "label": 0,
+    "sentence1": "Scientists believed Stardust trapped thousands of particles of dust .",
+    "sentence2": "Stardust was designed to gather thousands of dust particles streaming from Wild 2 ."
+  },
+  {
+    "text": "Sentence1: 'The Herald reported on Tuesday that internet developer Bruce Simpson was building a missile from parts ordered over the internet and shipped through Customs .', Sentence2: 'A home handyman is building a missile in his garage with parts bought over the internet and shipped through Customs .'",
+    "label": 1,
+    "sentence1": "The Herald reported on Tuesday that internet developer Bruce Simpson was building a missile from parts ordered over the internet and shipped through Customs .",
+    "sentence2": "A home handyman is building a missile in his garage with parts bought over the internet and shipped through Customs ."
+  },
+  {
+    "text": "Sentence1: 'Papandreou said EU leaders would discuss the appointment of Trichet as ECB president on Thursday evening or Friday .', Sentence2: 'Papandreou said EU leaders would discuss the appointment of Bank of France governor Jean-Claude Trichet as president of the European Central Bank on Thursday or Friday .'",
+    "label": 1,
+    "sentence1": "Papandreou said EU leaders would discuss the appointment of Trichet as ECB president on Thursday evening or Friday .",
+    "sentence2": "Papandreou said EU leaders would discuss the appointment of Bank of France governor Jean-Claude Trichet as president of the European Central Bank on Thursday or Friday ."
+  },
+  {
+    "text": "Sentence1: 'Vivendi pointed out that in both possible combinations , it would maintain a substantial minority interest in a U.S. media corporation \" with excellent growth potential . \"', Sentence2: 'It also added that both proposals would allow Vivendi Uni to maintain \" a substantial minority interest in a U.S. media corporation with excellent growth potential . \"'",
+    "label": 1,
+    "sentence1": "Vivendi pointed out that in both possible combinations , it would maintain a substantial minority interest in a U.S. media corporation \" with excellent growth potential . \"",
+    "sentence2": "It also added that both proposals would allow Vivendi Uni to maintain \" a substantial minority interest in a U.S. media corporation with excellent growth potential . \""
+  },
+  {
+    "text": "Sentence1: 'Zilkha and other shareholders , including Coastal founder Oscar Wyatt Jr . , had called for Wise 's firing for months .', Sentence2: 'Zilkha and other shareholders , including Coastal Corp. founder and vocal El Paso critic Oscar Wyatt Jr . , had called for Wise 's termination for months .'",
+    "label": 1,
+    "sentence1": "Zilkha and other shareholders , including Coastal founder Oscar Wyatt Jr . , had called for Wise 's firing for months .",
+    "sentence2": "Zilkha and other shareholders , including Coastal Corp. founder and vocal El Paso critic Oscar Wyatt Jr . , had called for Wise 's termination for months ."
+  },
+  {
+    "text": "Sentence1: 'The last time the survey was conducted , in 1995 , those numbers matched .', Sentence2: 'In 1995 , the last survey , those numbers were equal .'",
+    "label": 1,
+    "sentence1": "The last time the survey was conducted , in 1995 , those numbers matched .",
+    "sentence2": "In 1995 , the last survey , those numbers were equal ."
+  },
+  {
+    "text": "Sentence1: 'Cooper , the boy 's mother , started coming to the church about three months ago after she met a parishioner at a doctor 's office , Hemphill said .', Sentence2: 'The boy 's mother , Patricia Cooper , started coming to the church about three months ago after she met one of its members at a doctor 's office , Hemphill said .'",
+    "label": 1,
+    "sentence1": "Cooper , the boy 's mother , started coming to the church about three months ago after she met a parishioner at a doctor 's office , Hemphill said .",
+    "sentence2": "The boy 's mother , Patricia Cooper , started coming to the church about three months ago after she met one of its members at a doctor 's office , Hemphill said ."
+  },
+  {
+    "text": "Sentence1: 'To win final United States approval , the treaty would have to be signed by President Bush and ratified by Congress .', Sentence2: 'The treaty must be signed by the president and ratified by Congress to take effect .'",
+    "label": 1,
+    "sentence1": "To win final United States approval , the treaty would have to be signed by President Bush and ratified by Congress .",
+    "sentence2": "The treaty must be signed by the president and ratified by Congress to take effect ."
+  },
+  {
+    "text": "Sentence1: 'The deal with the Carmel-based insurer is expected to close shortly , said Macklowe spokesman Howard J. Rubenstein .', Sentence2: 'Macklowe has signed a sale contract , which is expected to close shortly , said his spokesman , Howard Rubenstein .'",
+    "label": 1,
+    "sentence1": "The deal with the Carmel-based insurer is expected to close shortly , said Macklowe spokesman Howard J. Rubenstein .",
+    "sentence2": "Macklowe has signed a sale contract , which is expected to close shortly , said his spokesman , Howard Rubenstein ."
+  },
+  {
+    "text": "Sentence1: 'Intelligence officials in Washington warned lawmakers a week ago to expect a terrorist attack in Saudi Arabia , it was reported today .', Sentence2: 'Intelligence officials told key senators a week ago to expect a terrorist attack in Saudi Arabia , Sen. Pat Roberts ( R-Kan . ) said yesterday .'",
+    "label": 1,
+    "sentence1": "Intelligence officials in Washington warned lawmakers a week ago to expect a terrorist attack in Saudi Arabia , it was reported today .",
+    "sentence2": "Intelligence officials told key senators a week ago to expect a terrorist attack in Saudi Arabia , Sen. Pat Roberts ( R-Kan . ) said yesterday ."
+  },
+  {
+    "text": "Sentence1: 'Plofsky said the commission won 't investigate because the three-year statute of limitations has expired .', Sentence2: 'The panel will not begin a formal investigation because the statute of limitations has expired , Plofsky said .'",
+    "label": 1,
+    "sentence1": "Plofsky said the commission won 't investigate because the three-year statute of limitations has expired .",
+    "sentence2": "The panel will not begin a formal investigation because the statute of limitations has expired , Plofsky said ."
+  },
+  {
+    "text": "Sentence1: 'Yes , from today Flash memory purchased from AMD or Fujitsu will be branded Spansion .', Sentence2: 'Spansion Flash memory solutions are available worldwide from AMD and Fujitsu .'",
+    "label": 0,
+    "sentence1": "Yes , from today Flash memory purchased from AMD or Fujitsu will be branded Spansion .",
+    "sentence2": "Spansion Flash memory solutions are available worldwide from AMD and Fujitsu ."
+  },
+  {
+    "text": "Sentence1: 'Her amendment would have changed the bill by keeping with current Texas law , which gives school districts the option to hold a moment of silence and recite the pledge .', Sentence2: 'The legislation would replace the current Texas law , which gives school districts the option of holding a period of silence and reciting the pledge .'",
+    "label": 0,
+    "sentence1": "Her amendment would have changed the bill by keeping with current Texas law , which gives school districts the option to hold a moment of silence and recite the pledge .",
+    "sentence2": "The legislation would replace the current Texas law , which gives school districts the option of holding a period of silence and reciting the pledge ."
+  },
+  {
+    "text": "Sentence1: 'Talabani told him the Governing Council would \" need UN assistance and advice in implementing the new decisions which have been taken . \"', Sentence2: 'Talabani told him Iraqi leaders would \" need U.N. assistance and advice in implementing the new decisions which have been taken \" on organising an interim Iraqi government by June .'",
+    "label": 0,
+    "sentence1": "Talabani told him the Governing Council would \" need UN assistance and advice in implementing the new decisions which have been taken . \"",
+    "sentence2": "Talabani told him Iraqi leaders would \" need U.N. assistance and advice in implementing the new decisions which have been taken \" on organising an interim Iraqi government by June ."
+  },
+  {
+    "text": "Sentence1: 'By state law , 911 calls are not public information and were not released .', Sentence2: 'By law , 911 calls are not public information in Rhode Island .'",
+    "label": 0,
+    "sentence1": "By state law , 911 calls are not public information and were not released .",
+    "sentence2": "By law , 911 calls are not public information in Rhode Island ."
+  },
+  {
+    "text": "Sentence1: 'Under the Government Network Security Act of 2003 , federal agencies would have six months to develop and implement P2P security plans .', Sentence2: 'If enacted , federal agencies would have six months to develop and implement these plans .'",
+    "label": 1,
+    "sentence1": "Under the Government Network Security Act of 2003 , federal agencies would have six months to develop and implement P2P security plans .",
+    "sentence2": "If enacted , federal agencies would have six months to develop and implement these plans ."
+  },
+  {
+    "text": "Sentence1: 'Sales as measured by volume , a key gauge of financial health in the beverage sector , grew 5 percent in the quarter .', Sentence2: 'Coke 's unit case volume , a key measure of financial health in the beverage sector , grew 5 percent in the quarter .'",
+    "label": 1,
+    "sentence1": "Sales as measured by volume , a key gauge of financial health in the beverage sector , grew 5 percent in the quarter .",
+    "sentence2": "Coke 's unit case volume , a key measure of financial health in the beverage sector , grew 5 percent in the quarter ."
+  },
+  {
+    "text": "Sentence1: 'Gainer said the two staff aides are \" very sorry this all happened , \" and the security personnel had performed \" well within standards . \"', Sentence2: 'The security personnel performed ``well within standards ' ' and the two staff aides were ``very sorry all this happened , ' ' Gainer said .'",
+    "label": 1,
+    "sentence1": "Gainer said the two staff aides are \" very sorry this all happened , \" and the security personnel had performed \" well within standards . \"",
+    "sentence2": "The security personnel performed ``well within standards ' ' and the two staff aides were ``very sorry all this happened , ' ' Gainer said ."
+  },
+  {
+    "text": "Sentence1: 'Two kids from Michigan are in today 's third round .', Sentence2: 'Both will compete in today 's third round , which is all oral examination .'",
+    "label": 0,
+    "sentence1": "Two kids from Michigan are in today 's third round .",
+    "sentence2": "Both will compete in today 's third round , which is all oral examination ."
+  },
+  {
+    "text": "Sentence1: 'He will leave Hollesley Bay open prison at Woodbridge , Suffolk , on Monday , July 21 .', Sentence2: 'Lord Archer is likely to be released from Hollesley Bay open prison at Woodbridge , Suffolk , on July 21 .'",
+    "label": 1,
+    "sentence1": "He will leave Hollesley Bay open prison at Woodbridge , Suffolk , on Monday , July 21 .",
+    "sentence2": "Lord Archer is likely to be released from Hollesley Bay open prison at Woodbridge , Suffolk , on July 21 ."
+  },
+  {
+    "text": "Sentence1: 'The helicopter burst into flames upon impact , according to the Mohave County Sheriff 's Office .', Sentence2: 'The helicopter was owned by Las Vegas-based Sundance Helicopters Inc . , according to the sheriff 's office .'",
+    "label": 0,
+    "sentence1": "The helicopter burst into flames upon impact , according to the Mohave County Sheriff 's Office .",
+    "sentence2": "The helicopter was owned by Las Vegas-based Sundance Helicopters Inc . , according to the sheriff 's office ."
+  },
+  {
+    "text": "Sentence1: 'Pennsylvania , which has the most aggressive treatment program , is treating 548 of 8,030 inmates .', Sentence2: 'Texas , which has more than three times Michigan 's inmate population , is treating 328 of its 16,298 infected inmates .'",
+    "label": 0,
+    "sentence1": "Pennsylvania , which has the most aggressive treatment program , is treating 548 of 8,030 inmates .",
+    "sentence2": "Texas , which has more than three times Michigan 's inmate population , is treating 328 of its 16,298 infected inmates ."
+  },
+  {
+    "text": "Sentence1: 'In so many different ways , the artistry of black musicians has conveyed the experience of black Americans throughout our history ,  Bush said .', Sentence2: 'Surrounded by singers from Harlem , Bush said : ' ' The artistry of black musicians has conveyed the experience of black Americans throughout our history .'",
+    "label": 0,
+    "sentence1": "In so many different ways , the artistry of black musicians has conveyed the experience of black Americans throughout our history ,  Bush said .",
+    "sentence2": "Surrounded by singers from Harlem , Bush said : ' ' The artistry of black musicians has conveyed the experience of black Americans throughout our history ."
+  },
+  {
+    "text": "Sentence1: 'The layoff is an excuse ,  countered Anaheim coach Mike Babcock .', Sentence2: 'I didn 't think our team engaged at all ,  lamented Anaheim coach Mike Babcock .'",
+    "label": 0,
+    "sentence1": "The layoff is an excuse ,  countered Anaheim coach Mike Babcock .",
+    "sentence2": "I didn 't think our team engaged at all ,  lamented Anaheim coach Mike Babcock ."
+  },
+  {
+    "text": "Sentence1: 'In other markets , U.S. Treasuries started off on Monday weaker , as stocks rose early .', Sentence2: 'In other markets , U.S. Treasuries inched higher as declining stocks raised the appeal of safe-haven debt .'",
+    "label": 0,
+    "sentence1": "In other markets , U.S. Treasuries started off on Monday weaker , as stocks rose early .",
+    "sentence2": "In other markets , U.S. Treasuries inched higher as declining stocks raised the appeal of safe-haven debt ."
+  },
+  {
+    "text": "Sentence1: 'Analysts had been expecting a net loss of 54 cents a share , according to Thomson First Call .', Sentence2: 'Analysts had forecast second quarter sales of $ 614 million , according to the Thomson First Call Web site .'",
+    "label": 0,
+    "sentence1": "Analysts had been expecting a net loss of 54 cents a share , according to Thomson First Call .",
+    "sentence2": "Analysts had forecast second quarter sales of $ 614 million , according to the Thomson First Call Web site ."
+  },
+  {
+    "text": "Sentence1: 'At 11 : 30 a.m. , Edmund Hillary of New Zealand and Tenzing Norgay Sherpa of Nepal reached the summit .', Sentence2: 'Sherpa Tenzing Norgay , who reached the summit with Sir Edmund , died in 1986 .'",
+    "label": 0,
+    "sentence1": "At 11 : 30 a.m. , Edmund Hillary of New Zealand and Tenzing Norgay Sherpa of Nepal reached the summit .",
+    "sentence2": "Sherpa Tenzing Norgay , who reached the summit with Sir Edmund , died in 1986 ."
+  },
+  {
+    "text": "Sentence1: 'Both are being held in the Armstrong County Jail .', Sentence2: 'Tatar was being held without bail in Armstrong County Prison today .'",
+    "label": 0,
+    "sentence1": "Both are being held in the Armstrong County Jail .",
+    "sentence2": "Tatar was being held without bail in Armstrong County Prison today ."
+  },
+  {
+    "text": "Sentence1: 'GE stock were up 37 cents to $ 28.56 in morning New York Stock Exchange trade .', Sentence2: 'Investors reacted little , with GE shares edging 7 cents lower to end at $ 28.12 on the New York Stock Exchange .'",
+    "label": 0,
+    "sentence1": "GE stock were up 37 cents to $ 28.56 in morning New York Stock Exchange trade .",
+    "sentence2": "Investors reacted little , with GE shares edging 7 cents lower to end at $ 28.12 on the New York Stock Exchange ."
+  },
+  {
+    "text": "Sentence1: 'The technology-laced Nasdaq Composite Index .IXIC rose 17.26 points , or 1.06 percent , to 1,640.06 , based on the latest data .', Sentence2: 'The broader Standard & Poor 's 500 Index < .SPX > gained 5.51 points , or 0.56 percent , to 981.73 .'",
+    "label": 0,
+    "sentence1": "The technology-laced Nasdaq Composite Index .IXIC rose 17.26 points , or 1.06 percent , to 1,640.06 , based on the latest data .",
+    "sentence2": "The broader Standard & Poor 's 500 Index < .SPX > gained 5.51 points , or 0.56 percent , to 981.73 ."
+  },
+  {
+    "text": "Sentence1: 'The technology-laced Nasdaq Composite Index .IXIC fell 23.54 points , or 1.42 percent , to 1,630.08 .', Sentence2: 'The broader Standard & Poor 's 500 Index .SPX gave up 11.91 points , or 1.19 percent , at 986.60 .'",
+    "label": 0,
+    "sentence1": "The technology-laced Nasdaq Composite Index .IXIC fell 23.54 points , or 1.42 percent , to 1,630.08 .",
+    "sentence2": "The broader Standard & Poor 's 500 Index .SPX gave up 11.91 points , or 1.19 percent , at 986.60 ."
+  },
+  {
+    "text": "Sentence1: 'The final round of the bee will be broadcast on ESPN at 1 p.m. Thursday .', Sentence2: 'At least 80 will make it to Thursday 's final rounds of competition , which will be broadcast on ESPN .'",
+    "label": 0,
+    "sentence1": "The final round of the bee will be broadcast on ESPN at 1 p.m. Thursday .",
+    "sentence2": "At least 80 will make it to Thursday 's final rounds of competition , which will be broadcast on ESPN ."
+  },
+  {
+    "text": "Sentence1: 'Doctors who knowingly violate the ban could face up to two years in prison .', Sentence2: 'Under the measure , doctors who perform the procedure would be subject to two years in prison and unspecified fines .'",
+    "label": 0,
+    "sentence1": "Doctors who knowingly violate the ban could face up to two years in prison .",
+    "sentence2": "Under the measure , doctors who perform the procedure would be subject to two years in prison and unspecified fines ."
+  },
+  {
+    "text": "Sentence1: 'The Toronto Stock Exchange opened on time and slightly lower .', Sentence2: 'The Toronto Stock Exchange said it will be business as usual on Friday morning .'",
+    "label": 0,
+    "sentence1": "The Toronto Stock Exchange opened on time and slightly lower .",
+    "sentence2": "The Toronto Stock Exchange said it will be business as usual on Friday morning ."
+  }
+]

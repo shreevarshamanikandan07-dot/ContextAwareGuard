@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+.env
+
+.vscode/
+.idea/
+*.log
+.ipynb_checkpoints/
+
+# Large datasets / archives
+*.zip
+*.tar.gz
+
+# ML models
+*.h5
+*.keras
+*.pth
+*.pt
+*.onnx
+*.joblib
+
+# Generated files
+models/
+results/
+outputs/
+
+# Raw downloaded datasets
+ContextAwarePromptGuard/data/raw/

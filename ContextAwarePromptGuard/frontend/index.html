@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ContextAwarePromptGuard — Adaptive Prompt Injection Detection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-background">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo-shield">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">ContextAwarePromptGuard</h1>
+          <p class="brand-subtitle">Adaptive Context-Aware Prompt Injection Detection System &bull; IEEE S&P 2025 Extension</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge badge-cpu">
+          <span class="pulse-dot"></span> CPU Native (DistilBERT)
+        </span>
+        <button id="benchmarkBtn" class="btn btn-secondary btn-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          Benchmark Metrics
+        </button>
+      </div>
+    </header>
+
+    <!-- Gap Mapping Ribbon -->
+    <section class="gap-ribbon">
+      <div class="gap-item" title="Semantic Context & Same-Task Evasion">
+        <span class="gap-tag">G1</span>
+        <span class="gap-desc">Semantic Context & Same-Task</span>
+      </div>
+      <div class="gap-item" title="Benign Instruction Discrimination & Risk Calibration">
+        <span class="gap-tag">G2</span>
+        <span class="gap-desc">Ambiguous Benign Discrimination</span>
+      </div>
+      <div class="gap-item" title="Suspicious Span Localization">
+        <span class="gap-tag">G3</span>
+        <span class="gap-desc">Suspicious Span Localization</span>
+      </div>
+      <div class="gap-item" title="Multimodal & Document OCR Ingestion">
+        <span class="gap-tag">G4</span>
+        <span class="gap-desc">Multimodal Document OCR</span>
+      </div>
+    </section>
+
+    <!-- Main Workspace Grid -->
+    <main class="workspace-grid">
+      <!-- Left Panel: Input Controls -->
+      <section class="panel input-panel">
+        <div class="panel-header">
+          <div class="tabs">
+            <button id="tabText" class="tab active">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 6.1H3"/><path d="M21 12H3"/><path d="M15.1 18H3"/></svg>
+              Text Prompt
+            </button>
+            <button id="tabFile" class="tab">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Multimodal Ingestion (G4)
+            </button>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <!-- Declared Task Selector -->
+          <div class="form-group">
+            <div class="label-row">
+              <label for="taskSelect">Declared Host Task Context</label>
+              <span id="taskCategoryBadge" class="mini-badge">CLASSIFICATION</span>
+            </div>
+            <select id="taskSelect" class="form-select">
+              <option value="mrpc">MRPC — Paraphrase Identification</option>
+              <option value="jfleg">JFLEG — Grammar Correction</option>
+              <option value="hsol">HSOL — Hate Speech & Content Moderation</option>
+              <option value="rte">RTE — Natural Language Entailment (NLI)</option>
+              <option value="sst2">SST-2 — Movie Review Sentiment Analysis</option>
+              <option value="sms_spam">SMS Spam — Telephony Spam Filtering</option>
+              <option value="gigaword">Gigaword — Headline Summarization</option>
+            </select>
+            <p id="taskDescription" class="task-hint">Loading task definition...</p>
+          </div>
+
+          <!-- Quick Presets -->
+          <div class="presets-section">
+            <span class="presets-label">Preset Tests:</span>
+            <div class="preset-chips">
+              <button class="chip" data-preset="benign">Legitimate Benign</button>
+              <button class="chip" data-preset="ambiguous">G2 Quoted Ambiguous</button>
+              <button class="chip" data-preset="same_task">G1 Same-Task Attack</button>
+              <button class="chip" data-preset="escape">G3 Escape Payload</button>
+            </div>
+          </div>
+
+          <!-- Text Mode View -->
+          <div id="textModeView" class="input-mode-view">
+            <div class="form-group">
+              <label for="promptInput">Incoming User Prompt / Host Input</label>
+              <textarea id="promptInput" class="form-textarea" rows="7" placeholder="Paste or type a user prompt here to analyze..."></textarea>
+            </div>
+          </div>
+
+          <!-- File Upload Mode View -->
+          <div id="fileModeView" class="input-mode-view hidden">
+            <div class="form-group">
+              <label>Upload Document / Image (PNG, JPG, PDF, TXT)</label>
+              <div id="dropZone" class="drop-zone">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                <p class="drop-title">Drag & drop your file here, or <span class="highlight">browse</span></p>
+                <p class="drop-subtitle">PDF documents, scanned PNG/JPG images, or text notes</p>
+                <input type="file" id="fileInput" class="file-hidden-input" accept=".pdf,.png,.jpg,.jpeg,.txt,.md">
+              </div>
+              <div id="fileSelectedInfo" class="file-info hidden">
+                <span id="selectedFileName">file.pdf</span>
+                <button id="removeFileBtn" class="btn-icon">&times;</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Button -->
+          <div class="action-row">
+            <button id="analyzeBtn" class="btn btn-primary btn-block">
+              <span class="btn-text">Execute Adaptive Analysis</span>
+              <span class="btn-spinner hidden"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Panel: Results & Diagnostics -->
+      <section class="panel results-panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Detection Diagnostics & Risk Assessment</h2>
+          <div id="latencyBadge" class="latency-badge hidden">
+            <span>Latency:</span> <strong id="latencyValue">0 ms</strong>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <!-- Empty State -->
+          <div id="emptyState" class="empty-state">
+            <div class="empty-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Awaiting Input Prompt</h3>
+            <p>Select a benchmark task context and input a prompt, or load a preset test above to evaluate.</p>
+          </div>
+
+          <!-- Results Container -->
+          <div id="resultsContent" class="results-content hidden">
+            <!-- Top Verdict & Meter Row -->
+            <div class="verdict-banner" id="verdictBanner">
+              <div class="verdict-info">
+                <span class="verdict-label" id="verdictLabel">ANALYSIS VERDICT</span>
+                <h3 class="verdict-heading" id="verdictHeading">BENIGN</h3>
+                <p class="verdict-subtext" id="verdictSubtext">Input conforms safely with declared host task objectives.</p>
+              </div>
+              
+              <!-- Circular Risk Gauge -->
+              <div class="gauge-container">
+                <div class="radial-gauge">
+                  <svg width="100" height="100" viewBox="0 0 100 100">
+                    <circle class="gauge-bg" cx="50" cy="50" r="40"/>
+                    <circle id="gaugeProgress" class="gauge-fill" cx="50" cy="50" r="40"/>
+                  </svg>
+                  <div class="gauge-value-box">
+                    <span id="riskScoreNum" class="gauge-number">0</span>
+                    <span class="gauge-unit">/100</span>
+                  </div>
+                </div>
+                <span id="riskTierBadge" class="risk-tier-tag">LOW RISK</span>
+              </div>
+            </div>
+
+            <!-- G3 Span Localization Card -->
+            <div class="card span-card">
+              <div class="card-header">
+                <div class="card-title">
+                  <span class="card-tag">G3</span>
+                  <h4>Suspicious Span Localization</h4>
+                </div>
+                <span id="spansFoundBadge" class="pill-badge">0 SPANS</span>
+              </div>
+              <div class="card-body">
+                <div id="spanHighlightedText" class="highlighted-display">
+                  No input yet.
+                </div>
+                <div id="spansTableContainer" class="spans-table-box hidden">
+                  <table class="spans-table">
+                    <thead>
+                      <tr>
+                        <th>Offset</th>
+                        <th>Suspicious Substring</th>
+                        <th>Severity</th>
+                        <th>Classification Reason</th>
+                      </tr>
+                    </thead>
+                    <tbody id="spansTableBody"></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- G1 & G2 Metrics Row -->
+            <div class="two-col-cards">
+              <!-- G1 Card -->
+              <div class="card metric-card">
+                <div class="card-header">
+                  <div class="card-title">
+                    <span class="card-tag">G1</span>
+                    <h4>Semantic Context (Same-Task)</h4>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="metric-line">
+                    <span>Host Task Alignment:</span>
+                    <strong id="g1HostSim">0.0%</strong>
+                  </div>
+                  <div class="progress-bar"><div id="g1HostBar" class="progress-fill" style="width: 0%"></div></div>
+                  
+                  <div class="metric-line mt-2">
+                    <span>Instruction Drift:</span>
+                    <strong id="g1Drift">0.00</strong>
+                  </div>
+                  <div class="progress-bar"><div id="g1DriftBar" class="progress-fill" style="width: 0%"></div></div>
+
+                  <div id="sameTaskFlag" class="alert-box alert-warning mt-2 hidden">
+                    <strong>Covert Same-Task Attack Detected:</strong> High vocabulary overlap with host task disguises directive instruction.
+                  </div>
+                </div>
+              </div>
+
+              <!-- G2 Card -->
+              <div class="card metric-card">
+                <div class="card-header">
+                  <div class="card-title">
+                    <span class="card-tag">G2</span>
+                    <h4>Benign Boundary Discrimination</h4>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="metric-line">
+                    <span>Quoted Safety:</span>
+                    <strong id="g2QuotedSafe">Not Quoted</strong>
+                  </div>
+                  <div class="metric-line">
+                    <span>Delimiter Breakout:</span>
+                    <strong id="g2Delimiter">None</strong>
+                  </div>
+                  <div class="metric-line">
+                    <span>Calibrated Probability:</span>
+                    <strong id="g2CalibratedProb">0.0%</strong>
+                  </div>
+                  <div id="g2MitigationAlert" class="alert-box alert-success mt-2 hidden">
+                    <strong>False Positive Mitigated:</strong> Instructional phrases are safely quoted/reported as passive data.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- G4 OCR Metadata Card (shown when file processed) -->
+            <div id="ocrInfoCard" class="card hidden">
+              <div class="card-header">
+                <div class="card-title">
+                  <span class="card-tag">G4</span>
+                  <h4>Multimodal OCR Extraction Details</h4>
+                </div>
+                <span id="ocrMethodBadge" class="pill-badge">NATIVE PDF</span>
+              </div>
+              <div class="card-body">
+                <div class="metric-row-inline">
+                  <span>File: <strong id="ocrFileName">-</strong></span>
+                  <span>Extracted Chars: <strong id="ocrCharCount">0</strong></span>
+                  <span>Confidence: <strong id="ocrConfidence">0%</strong></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Human-Readable Explanation Card -->
+            <div class="card explanation-card">
+              <div class="card-header">
+                <div class="card-title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  <h4>Auditable Decision Evidence & Explanation</h4>
+                </div>
+              </div>
+              <div class="card-body">
+                <p id="explanationSummary" class="explanation-summary"></p>
+                <div class="evidence-list-container">
+                  <h5 class="evidence-heading">Primary Evidence:</h5>
+                  <ul id="evidenceList" class="evidence-list"></ul>
+                </div>
+                <div class="recommendation-box">
+                  <span class="rec-tag">Recommended Operator Action:</span>
+                  <p id="explanationRec" class="rec-text"></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Benchmark Comparative Modal -->
+    <div id="benchmarkModal" class="modal hidden">
+      <div class="modal-overlay"></div>
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3>Official Benchmark & Research Gap Validation Matrix</h3>
+          <button id="closeModalBtn" class="btn-icon">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-subtitle">Direct empirical comparison on <code>data/benchmark/benchmark_test.json</code> (3,780 official test samples):</p>
+          <div class="table-responsive">
+            <table class="benchmark-table">
+              <thead>
+                <tr>
+                  <th>Architecture / Defense</th>
+                  <th>Accuracy</th>
+                  <th>Precision</th>
+                  <th>Recall</th>
+                  <th>F1</th>
+                  <th>FPR</th>
+                  <th>Same-Task Recall (G1)</th>
+                  <th>Localization (G3)</th>
+                  <th>Multimodal (G4)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>DataSentinel Sentinel Comparator</strong><br><small>IEEE S&P 2025 Mechanism</small></td>
+                  <td>94.23%</td>
+                  <td>100.00%</td>
+                  <td>94.10%</td>
+                  <td>96.96%</td>
+                  <td>0.00%</td>
+                  <td><span class="text-danger">58.16% (Gap G1)</span></td>
+                  <td><span class="text-danger">None (0%)</span></td>
+                  <td><span class="text-danger">Text-only</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Our Baseline Transformer Classifier</strong><br><small>distilbert-base-uncased (Phase 6)</small></td>
+                  <td>99.92%</td>
+                  <td>99.92%</td>
+                  <td>100.00%</td>
+                  <td>99.96%</td>
+                  <td><span class="text-warning">3.45% (23% on RTE)</span></td>
+                  <td>100.00%</td>
+                  <td><span class="text-danger">None (0%)</span></td>
+                  <td><span class="text-danger">Text-only</span></td>
+                </tr>
+                <tr class="highlight-row">
+                  <td><strong>Our Proposed Context-Aware Guard</strong><br><small>Integrated G1 + G2 + G3 + G4 (Phase 7)</small></td>
+                  <td><strong>99.95%</strong></td>
+                  <td><strong>100.00%</strong></td>
+                  <td><strong>100.00%</strong></td>
+                  <td><strong>99.97%</strong></td>
+                  <td><strong>0.00% (Suppressed)</strong></td>
+                  <td><strong>100.00% (Resolved)</strong></td>
+                  <td><strong>Offsets & Highlighting</strong></td>
+                  <td><strong>PDF + OCR Supported</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <p><small>&bull; Zero data leakage verified in <code>reports/phase6_data_leakage_check.md</code>. Hardware: Pure CPU PyTorch 2.13.0 on Windows 11.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "status": "PASSED",
+  "total_benchmark_samples": 25200,
+  "clean_samples_count": 700,
+  "attack_samples_count": 24500,
+  "same_task_attack_samples": 3500,
+  "cross_task_attack_samples": 21000,
+  "task_combinations_verified": 49,
+  "expected_combinations": 49,
+  "attack_strategies_verified": 5,
+  "expected_strategies": 5,
+  "total_attack_files": 245,
+  "expected_attack_files": 245,
+  "splits": {
+    "train": 17640,
+    "validation": 3780,
+    "test": 3780
+  },
+  "integrity": {
+    "corrupted_records": 0,
+    "empty_prompts": 0,
+    "missing_fields": 0,
+    "duplicate_sample_ids": 0
+  },
+  "per_strategy_distribution": {
+    "combine": 4900,
+    "escape": 4900,
+    "fake_comp": 4900,
+    "ignore": 4900,
+    "naive": 4900
+  }
+}

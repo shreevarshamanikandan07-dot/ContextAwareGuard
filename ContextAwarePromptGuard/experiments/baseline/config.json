@@ -1,0 +1,18 @@
+{
+  "experiment_name": "baseline_distilbert",
+  "model_architecture": "DistilBertForSequenceClassification",
+  "base_model": "distilbert-base-uncased",
+  "checkpoint_used": "models/baseline (Epoch 1 checkpoint, val F1=0.9780)",
+  "epochs": 1,
+  "training_samples": 1313,
+  "validation_samples": 300,
+  "test_samples": 3780,
+  "device": "cpu",
+  "max_seq_length": 128,
+  "hardware_info": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.13.7",
+    "pytorch_version": "2.13.0+cpu",
+    "cpu_count": 8
+  }
+}

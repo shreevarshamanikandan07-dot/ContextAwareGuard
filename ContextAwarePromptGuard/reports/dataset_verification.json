@@ -1,0 +1,74 @@
+{
+  "mrpc": {
+    "status": "VERIFIED",
+    "train_samples": 4076,
+    "test_samples": 1725,
+    "files": [
+      "msr_paraphrase_train.txt",
+      "msr_paraphrase_test.txt"
+    ],
+    "source": "dl.fbaipublicfiles.com / MSR Paraphrase Corpus"
+  },
+  "jfleg": {
+    "status": "VERIFIED",
+    "dev_samples": 754,
+    "test_samples": 747,
+    "files": [
+      "dev/{dev.src, dev.ref0..3}",
+      "test/{test.src, test.ref0..3}"
+    ],
+    "source": "github.com/keisks/jfleg (JHU Fluency-Extended GUG)"
+  },
+  "hsol": {
+    "status": "VERIFIED",
+    "total_samples": 24783,
+    "files": [
+      "labeled_data.csv"
+    ],
+    "source": "github.com/t-davidson/hate-speech-and-offensive-language"
+  },
+  "rte": {
+    "status": "VERIFIED",
+    "train_samples": 2490,
+    "dev_samples": 277,
+    "files": [
+      "train.tsv",
+      "dev.tsv",
+      "test.tsv"
+    ],
+    "source": "GLUE benchmark / dl.fbaipublicfiles.com/glue/data/RTE.zip"
+  },
+  "sst2": {
+    "status": "VERIFIED",
+    "train_samples": 67349,
+    "dev_samples": 872,
+    "files": [
+      "train.tsv",
+      "dev.tsv",
+      "test.tsv"
+    ],
+    "source": "GLUE benchmark / dl.fbaipublicfiles.com/glue/data/SST-2.zip"
+  },
+  "sms_spam": {
+    "status": "VERIFIED",
+    "total_samples": 5574,
+    "files": [
+      "sms.tsv"
+    ],
+    "source": "UCI Machine Learning Repository / Markham SMS Spam"
+  },
+  "gigaword": {
+    "status": "VERIFIED",
+    "dev_samples": 189651,
+    "test_samples": 1951,
+    "files": [
+      "train.src",
+      "train.tgt",
+      "dev.src",
+      "dev.tgt",
+      "test.src",
+      "test.tgt"
+    ],
+    "source": "HarvardNLP sent-summary / Gigaword archive (Google Drive ID 1USoQ8lJgN8kAWnUnRrupMGrPMLlDVqlV)"
+  }
+}
